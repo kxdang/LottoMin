@@ -1,0 +1,54 @@
+.Lottery {
+    border: solid 1px gainsboro;
+    padding: 1em 0 2em 0;
+    text-align: center;
+    margin: 1em auto auto;
+    border-radius: 10px;
+    width: 50em;
+    background-color: white;
+}
+
+.Lottery-WinningNumbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.Lottery-WinningNumber {
+    font-size: 1.5em;
+    width: 2em;
+    
+}
+
+
+.Lottery button {
+    margin-top: 3em;
+
+
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background-color:#0c9463;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
+}
+
+.Lottery button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(black, 0.2);
+}
+
+.Lottery button:active{
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
+
+}

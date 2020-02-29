@@ -5,8 +5,8 @@ import Lottery from "./Lottery";
 function App() {
   return (
     <div className="App">
+      <h1 className="Lottery-title">LottrMin</h1>
       <Lottery />
-      <Lottery title="Mini Daily" maxBalls={4} />
     </div>
   );
 }
