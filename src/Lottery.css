@@ -8,6 +8,11 @@
     background-color: white;
 }
 
+.Lottery-title {
+    margin-top: 0;
+    padding-top: 1em;
+}
+
 .Lottery-WinningNumbers {
     display: flex;
     flex-direction: row;
@@ -51,4 +56,9 @@
         transform: translateY(-1px);
         box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
 
+}
+
+.Lottery-debt {
+    color: red;
+  
 }

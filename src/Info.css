@@ -1,0 +1,29 @@
+.Info {
+    border: solid 1px gainsboro;
+    padding: 1em 0 1em 0;
+    text-align: left;
+    margin: 1em auto auto;
+    border-radius: 10px;
+    width: 50em;
+    background-color: white;
+
+}
+
+.Info p {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: none;
+  
+}
+.Info-question {
+    font-weight: bold;
+ 
+}
+
+.Info-answer {
+    margin-top: 0;
+}
+
+.Info-item {
+    margin: 0.6em;
+}
